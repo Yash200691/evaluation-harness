@@ -1,0 +1,48 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Generated evaluation reports
+reports/
+
+# Logs and local runtime state
+*.log
+*.pid
+*.seed
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
